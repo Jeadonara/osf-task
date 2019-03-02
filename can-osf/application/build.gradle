@@ -1,0 +1,11 @@
+apply plugin: 'org.springframework.boot'
+dependencies{
+    compile project(':library')
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+}
+jar {
+    baseName = 'application'
+}
+
+
+

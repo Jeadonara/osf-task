@@ -1,0 +1,4 @@
+rootProject.name = 'can-osf'
+
+include 'application'
+include 'library'
